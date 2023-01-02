@@ -21,7 +21,7 @@ jobs:
       with:
         jvm: 8
     - name: Set up MinGW
-      uses: egor-tensin/setup-mingw@f3c5d799aadf8fa230ac67a422b01dd085bbc96b
+      uses: egor-tensin/setup-mingw@f91eb68fb07f904c0e2bda62394e838d40e17f94
       with:
         platform: x64
     - name: Compile
@@ -41,7 +41,7 @@ jobs:
       with:
         jvm: 8
     - name: Set up MinGW
-      uses: egor-tensin/setup-mingw@f3c5d799aadf8fa230ac67a422b01dd085bbc96b
+      uses: egor-tensin/setup-mingw@f91eb68fb07f904c0e2bda62394e838d40e17f94
       with:
         platform: x64
     - run: .github/scripts/gpg-setup.sh
